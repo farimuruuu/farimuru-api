@@ -1,4 +1,4 @@
-import { sendTelegramLog } from './telegramNotifier.js'
+import { sendTelegramLog } from './telegramNotifier.ts'
 
 const BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN
 const OWNER_ID = process.env.TELEGRAM_OWNER_ID
