@@ -15,7 +15,7 @@ export const tiktokRoute = createRoute({
                 description: 'TikTok Video URL'
             }),
             apikey: z.string().openapi({
-                example: 'kyuzx',
+                example: 'farimuru',
                 description: 'Valid API Key'
             })
         })

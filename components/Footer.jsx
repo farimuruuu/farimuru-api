@@ -9,7 +9,7 @@ export default function Footer() {
           {/* Sisi Kiri: Brand & Info */}
           <div>
             <div className="footer-brand" style={{ fontSize: '1.2rem', fontWeight: 800, color: 'var(--text-primary)' }}>
-              Kyzz<span style={{ color: 'var(--primary)' }}> APIs v2</span>
+              Farimuru<span style={{ color: 'var(--primary)' }}> APIs v2</span>
             </div>
             <p style={{ fontSize: '0.825rem', color: 'var(--text-secondary)', marginTop: '4px', margin: 0 }}>
               Developer-first REST API Platform built with Next.js & Hono.

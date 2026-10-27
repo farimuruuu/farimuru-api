@@ -12,7 +12,7 @@ export const statsRoute = createRoute({
     request: {
         query: z.object({
             apikey: z.string().openapi({
-                example: 'kyuzx',
+                example: 'farimuru',
                 description: 'Valid API Key'
             })
         })

@@ -39,14 +39,14 @@ async function pollTelegramUpdates() {
                             const command = message.text.trim()
                             if (command === '/stats' || command === '/status') {
                                 const stats = getHitStats()
-                                const replyMsg = `<b>📊 Kyzz APIs v2 Live Status</b>
+                                const replyMsg = `<b>📊 Farimuru APIs v2 Live Status</b>
 -------------------------------
 <b>Total API Hits:</b> <code>${stats.totalHits}</code>
 <b>Server Uptime:</b> <code>${stats.uptime}</code>
 <b>Status:</b> 🟢 ONLINE & Healthy`
                                 await sendTelegramLog(replyMsg)
                             } else if (command === '/ping') {
-                                await sendTelegramLog('🏓 <b>Pong!</b> Server Kyzz APIs v2 is active.')
+                                await sendTelegramLog('🏓 <b>Pong!</b> Server Farimuru APIs v2 is active.')
                             }
                         }
                     }

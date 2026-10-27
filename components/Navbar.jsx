@@ -38,7 +38,7 @@ export default function Navbar() {
     <header className="navbar">
       <div className="container nav-inner">
         <Link href="/" className="brand" onClick={closeMenu}>
-          Kyzz<span> APIs v2</span>
+          Farimuru<span> APIs v2</span>
         </Link>
 
         {/* Desktop Navigation Links */}
@@ -89,7 +89,7 @@ export default function Navbar() {
       <div className={`side-drawer ${isMenuOpen ? 'open' : ''}`} aria-hidden={!isMenuOpen}>
         <div className="side-drawer-header">
           <div className="side-drawer-brand">
-            Kyzz<span> APIs v2</span>
+            Farimuru<span> APIs v2</span>
           </div>
           <button onClick={closeMenu} className="close-btn" aria-label="Close Menu">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">

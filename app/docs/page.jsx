@@ -16,12 +16,12 @@ export default function DocsPage() {
   const [bodyState, setBodyState] = useState({})
   const [executingState, setExecutingState] = useState({})
   const [responseState, setResponseState] = useState({})
-  const [globalApiKey, setGlobalApiKey] = useState('kyuzx')
+  const [globalApiKey, setGlobalApiKey] = useState('farimuru')
   const [selectedTag, setSelectedTag] = useState('ALL')
   const [copiedState, setCopiedState] = useState({})
 
   useEffect(() => {
-    const savedKey = localStorage.getItem('kyzz_global_apikey')
+    const savedKey = localStorage.getItem('farimuru_global_apikey')
     if (savedKey) {
       setGlobalApiKey(savedKey)
     }
@@ -29,7 +29,7 @@ export default function DocsPage() {
 
   const handleGlobalApiKeyChange = (val) => {
     setGlobalApiKey(val)
-    localStorage.setItem('kyzz_global_apikey', val)
+    localStorage.setItem('farimuru_global_apikey', val)
   }
 
   useEffect(() => {
@@ -251,7 +251,7 @@ export default function DocsPage() {
               <div>
                 <h1 style={{ fontSize: '1.5rem', fontWeight: 800, margin: 0, color: 'var(--text-primary)', letterSpacing: '-0.025em' }}>API Documentation</h1>
                 <p style={{ color: 'var(--text-secondary)', margin: '0.2rem 0 0', fontSize: '0.875rem', fontWeight: 500 }}>
-                  High-performance, developer-first REST API platform maintained by <strong style={{ color: 'var(--text-primary)' }}>Mommy Kyuu</strong>.
+                  High-performance, developer-first REST API platform maintained by <strong style={{ color: 'var(--text-primary)' }}>farimuru</strong>.
                 </p>
               </div>
             </div>
@@ -291,7 +291,7 @@ export default function DocsPage() {
               type="text"
               value={globalApiKey}
               onChange={(e) => handleGlobalApiKeyChange(e.target.value)}
-              placeholder="e.g. kyuzx"
+              placeholder="e.g. farimuru"
               style={{
                 flex: 1,
                 padding: '4px 8px',

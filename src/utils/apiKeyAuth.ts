@@ -14,7 +14,7 @@ export const apiKeyAuth = async (c: Context, next: Next) => {
         return c.json({
             status: false,
             error: 'Unauthorized',
-            message: 'API Key is missing. Please provide apikey query parameter (e.g. ?apikey=kyuzx).'
+            message: 'API Key is missing. Please provide apikey query parameter (e.g. ?apikey=farimuru).'
         }, 401)
     }
 

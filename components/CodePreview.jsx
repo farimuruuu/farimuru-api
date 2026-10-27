@@ -15,13 +15,13 @@ export default function CodePreview() {
           <div className="code-body" style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: '0.875rem', lineHeight: '1.6' }}>
             <div style={{ color: '#64748b', marginBottom: '4px' }}>// Quick request example</div>
             <div style={{ marginBottom: '1rem' }}>
-              <span style={{ color: '#38bdf8', fontWeight: 600 }}>curl</span> -X GET <span style={{ color: '#e2e8f0' }}>"https://api.kyzzz.xyz/api/stats?apikey=kyuzx"</span>
+              <span style={{ color: '#38bdf8', fontWeight: 600 }}>curl</span> -X GET <span style={{ color: '#e2e8f0' }}>"https://farimuru.my.id/api/stats?apikey=farimuru"</span>
             </div>
 
             <div style={{ color: '#64748b', marginBottom: '4px' }}>// Response 200 OK</div>
             <pre style={{ margin: 0, padding: '12px 14px', background: '#020617', borderRadius: '8px', border: '1px solid #1e293b', color: '#f8fafc', overflowX: 'auto' }}>
 {`{
-    "creator": "Mommy Kyuu",
+    "creator": "farimuru",
     "status": "online",
     "system": {
         "platform": "linux",

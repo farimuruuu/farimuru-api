@@ -34,16 +34,16 @@ const openApiConfig = {
     openapi: '3.0.0',
     info: {
         version: '2.0.0',
-        title: 'Kyzz APIs v2 - RESTful Service Documentation',
+        title: 'Farimuru APIs v2 - RESTful Service Documentation',
         description: 'Simple, reliable, & high-performance REST API services built with Next.js 16, Hono.js, & NJS Engine.',
         contact: {
-            name: 'Mommy Kyuu',
+            name: 'farimuru',
             url: 'https://whatsapp.com/channel/0029Vb7gcbuLdQelWzrTzD3D'
         }
     },
     servers: [
         {
-            url: 'https://api.kyzzz.xyz',
+            url: 'https://farimuru.my.id',
             description: 'Production Server'
         },
         {

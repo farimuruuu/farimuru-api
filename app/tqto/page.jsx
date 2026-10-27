@@ -42,7 +42,7 @@ export default function TqtoPage() {
             Thanks To (TQTO) & Community
           </h1>
           <p style={{ color: 'var(--text-secondary)', fontSize: '1rem', maxWidth: '600px', margin: '0 auto' }}>
-            Apresiasi, saluran WhatsApp resmi, dan kontak pengembang Kyzz APIs v2 (<code>api.kyzzz.xyz</code>).
+            Apresiasi, saluran WhatsApp resmi, dan kontak pengembang Farimuru APIs v2 (<code>farimuru.my.id</code>).
           </p>
         </div>
 
@@ -67,7 +67,7 @@ export default function TqtoPage() {
             >
               <div style={{ width: '110px', height: '110px', margin: '0 auto 1.25rem', borderRadius: '50%', overflow: 'hidden', border: '3px solid var(--primary)', boxShadow: '0 4px 12px rgba(37, 99, 235, 0.25)' }}>
                 <img
-                  src="https://github.com/Rynnstecu.png"
+                  src="https://github.com/farimuruuu.png"
                   alt={item.name}
                   style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                 />
@@ -104,15 +104,15 @@ export default function TqtoPage() {
                 <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '8px' }}>
                   <a href={settings.contacts.tele1} target="_blank" rel="noopener noreferrer" style={{ padding: '6px 12px', borderRadius: '6px', background: '#f0f9ff', color: '#0284c7', border: '1px solid #bae6fd', fontSize: '0.775rem', fontWeight: 700, textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: '6px' }}>
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zm5.56 8.16l-1.97 9.28c-.15.66-.54.82-1.09.51l-3.01-2.22-1.45 1.4c-.16.16-.3.3-.61.3l.21-3.05 5.56-5.02c.24-.22-.05-.34-.37-.13l-6.87 4.32-2.96-.92c-.64-.2-.65-.64.13-.95l11.57-4.46c.54-.2 1.01.13.86.94z"/></svg>
-                    Tele 1: @kyuugaperawan
+                    Tele 1: @farimuru
                   </a>
                   <a href={settings.contacts.tele2} target="_blank" rel="noopener noreferrer" style={{ padding: '6px 12px', borderRadius: '6px', background: '#f0f9ff', color: '#0284c7', border: '1px solid #bae6fd', fontSize: '0.775rem', fontWeight: 700, textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: '6px' }}>
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zm5.56 8.16l-1.97 9.28c-.15.66-.54.82-1.09.51l-3.01-2.22-1.45 1.4c-.16.16-.3.3-.61.3l.21-3.05 5.56-5.02c.24-.22-.05-.34-.37-.13l-6.87 4.32-2.96-.92c-.64-.2-.65-.64.13-.95l11.57-4.46c.54-.2 1.01.13.86.94z"/></svg>
-                    Tele 2: @kyunotdev
+                    Tele 2: @farimuru
                   </a>
                   <a href={settings.contacts.tele3} target="_blank" rel="noopener noreferrer" style={{ padding: '6px 12px', borderRadius: '6px', background: '#f0f9ff', color: '#0284c7', border: '1px solid #bae6fd', fontSize: '0.775rem', fontWeight: 700, textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: '6px' }}>
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zm5.56 8.16l-1.97 9.28c-.15.66-.54.82-1.09.51l-3.01-2.22-1.45 1.4c-.16.16-.3.3-.61.3l.21-3.05 5.56-5.02c.24-.22-.05-.34-.37-.13l-6.87 4.32-2.96-.92c-.64-.2-.65-.64.13-.95l11.57-4.46c.54-.2 1.01.13.86.94z"/></svg>
-                    Tele 3: @raramasihkyu
+                    Tele 3: @farimuru
                   </a>
                   <a href={settings.contacts.wa} target="_blank" rel="noopener noreferrer" style={{ padding: '6px 12px', borderRadius: '6px', background: '#f0fdf4', color: '#16a34a', border: '1px solid #bbf7d0', fontSize: '0.775rem', fontWeight: 700, textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: '6px' }}>
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
@@ -140,7 +140,7 @@ export default function TqtoPage() {
             {/* Channel Utama */}
             <div style={{ background: 'var(--surface)', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '1.25rem', textAlign: 'center', boxShadow: 'var(--shadow-sm)' }}>
               <div style={{ fontSize: '0.75rem', fontWeight: 700, color: '#2563eb', textTransform: 'uppercase', marginBottom: '4px' }}>Saluran Utama</div>
-              <h4 style={{ margin: '0 0 10px', fontSize: '1.05rem', fontWeight: 800, color: 'var(--text-primary)' }}>Kyzz Official CH 1</h4>
+              <h4 style={{ margin: '0 0 10px', fontSize: '1.05rem', fontWeight: 800, color: 'var(--text-primary)' }}>Farimuru Official CH 1</h4>
               <a
                 href={settings.channels.main}
                 target="_blank"
@@ -165,7 +165,7 @@ export default function TqtoPage() {
             {/* Channel Kedua */}
             <div style={{ background: 'var(--surface)', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '1.25rem', textAlign: 'center', boxShadow: 'var(--shadow-sm)' }}>
               <div style={{ fontSize: '0.75rem', fontWeight: 700, color: '#7c3aed', textTransform: 'uppercase', marginBottom: '4px' }}>Saluran Kedua</div>
-              <h4 style={{ margin: '0 0 10px', fontSize: '1.05rem', fontWeight: 800, color: 'var(--text-primary)' }}>Kyzz Backup CH 2</h4>
+              <h4 style={{ margin: '0 0 10px', fontSize: '1.05rem', fontWeight: 800, color: 'var(--text-primary)' }}>Farimuru Backup CH 2</h4>
               <a
                 href={settings.channels.second}
                 target="_blank"
@@ -190,7 +190,7 @@ export default function TqtoPage() {
             {/* Channel Ketiga */}
             <div style={{ background: 'var(--surface)', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '1.25rem', textAlign: 'center', boxShadow: 'var(--shadow-sm)' }}>
               <div style={{ fontSize: '0.75rem', fontWeight: 700, color: '#ea580c', textTransform: 'uppercase', marginBottom: '4px' }}>Saluran Ketiga</div>
-              <h4 style={{ margin: '0 0 10px', fontSize: '1.05rem', fontWeight: 800, color: 'var(--text-primary)' }}>Kyzz Support CH 3</h4>
+              <h4 style={{ margin: '0 0 10px', fontSize: '1.05rem', fontWeight: 800, color: 'var(--text-primary)' }}>Farimuru Support CH 3</h4>
               <a
                 href={settings.channels.third}
                 target="_blank"

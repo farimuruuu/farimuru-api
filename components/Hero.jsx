@@ -6,7 +6,7 @@ export default function Hero() {
       <div className="container">
         <div className="hero-badge reveal">
           <span className="hero-badge-dot"></span>
-          v2.0.0 • Official API: api.kyzzz.xyz
+          v2.0.0 • Official API: farimuru.my.id
         </div>
         
         <h1 className="reveal delay-100">

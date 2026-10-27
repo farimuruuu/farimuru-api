@@ -62,7 +62,7 @@ export default function Features() {
       <div className="container">
         {/* Section 1: Features */}
         <div className="section-title reveal">
-          <h2 style={{ fontSize: '2rem', fontWeight: 800, color: 'var(--text-primary)' }}>Why Choose Kyzz APIs</h2>
+          <h2 style={{ fontSize: '2rem', fontWeight: 800, color: 'var(--text-primary)' }}>Why Choose Farimuru APIs</h2>
           <p style={{ color: 'var(--text-secondary)' }}>Designed to deliver exceptional developer experience and performance.</p>
         </div>
 
@@ -75,7 +75,7 @@ export default function Features() {
               </svg>
             </div>
             <h3>Ultra Low Latency</h3>
-            <p>Powered by Next.js & Hono framework for ultra fast, predictable execution speed on <code>api.kyzzz.xyz</code>.</p>
+            <p>Powered by Next.js & Hono framework for ultra fast, predictable execution speed on <code>farimuru.my.id</code>.</p>
           </div>
 
           {/* Card 2: Realtime Metrics */}

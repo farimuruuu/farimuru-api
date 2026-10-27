@@ -4,12 +4,12 @@ import { useState } from 'react'
 
 const faqs = [
   {
-    question: 'Apakah Kyzz APIs v2 gratis digunakan?',
-    answer: 'Ya, seluruh REST API services di Kyzz APIs v2 dapat diakses dan digunakan secara gratis dengan menggunakan API Key publik resmi (`kyuzx`).'
+    question: 'Apakah Farimuru APIs v2 gratis digunakan?',
+    answer: 'Ya, seluruh REST API services di Farimuru APIs v2 dapat diakses dan digunakan secara gratis dengan menggunakan API Key publik resmi (`farimuru`).'
   },
   {
     question: 'Bagaimana cara menggunakan API Key?',
-    answer: 'Anda cukup menambahkan parameter query `?apikey=kyuzx` pada setiap request URL endpoint (contoh: `/api/stats?apikey=kyuzx`) atau menyertakannya pada header HTTP `x-api-key`.'
+    answer: 'Anda cukup menambahkan parameter query `?apikey=farimuru` pada setiap request URL endpoint (contoh: `/api/stats?apikey=farimuru`) atau menyertakannya pada header HTTP `x-api-key`.'
   },
   {
     question: 'Berapa batas rate limit request yang diperbolehkan?',
@@ -40,7 +40,7 @@ export default function FAQ() {
             Frequently Asked Questions
           </h2>
           <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem' }}>
-            Pertanyaan yang sering ditanyakan seputar penggunaan Kyzz APIs v2.
+            Pertanyaan yang sering ditanyakan seputar penggunaan Farimuru APIs v2.
           </p>
         </div>
 
