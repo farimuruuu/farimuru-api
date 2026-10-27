@@ -6,6 +6,7 @@ import { secureHeaders } from 'hono/secure-headers'
 import { statsRoute, statsHandler } from './api/stats/routes.ts'
 import { cosplayRoute, cosplayHandler } from './api/random/cosplay.ts'
 import { tiktokRoute, tiktokHandler } from './api/downloader/tiktok.ts'
+import { instagramRoute, instagramHandler } from './api/downloader/instagram.ts'
 
 // --------- UTILS ---------
 import { logApiRequest } from './utils/logApiRequest.ts'
@@ -29,6 +30,7 @@ app.use('/api/*', apiKeyAuth)
 register(app, statsRoute, statsHandler)
 register(app, cosplayRoute, cosplayHandler)
 register(app, tiktokRoute, tiktokHandler)
+register(app, instagramRoute, instagramHandler)
 
 const openApiConfig = {
     openapi: '3.0.0',
