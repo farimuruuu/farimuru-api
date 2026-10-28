@@ -48,6 +48,7 @@ export default function Navbar() {
           <li><a href="/openapi.json" target="_blank" rel="noopener noreferrer">Spec</a></li>
           <li><a href={settings.github} target="_blank" rel="noopener noreferrer">GitHub</a></li>
           <li><Link href="/tqto">TQTO</Link></li>
+          <li><Link href="/login">Login</Link></li>
         </ul>
 
         <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
@@ -104,6 +105,14 @@ export default function Navbar() {
             <li>
               <Link href="/" onClick={closeMenu}>
                 <span>Home</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+              </Link>
+            </li>
+            <li>
+              <Link href="/dashboard" onClick={closeMenu}>
+                <span>Login / Dashboard</span>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <polyline points="9 18 15 12 9 6"></polyline>
                 </svg>
